@@ -1,0 +1,11 @@
+$gold: #fc6;
+$react-rater-hover: lighten($gold, 10%);
+$react-rater-active: $gold;
+
+@import "../node_modules/react-rater/lib/react-rater.scss";
+
+.react-rater {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
